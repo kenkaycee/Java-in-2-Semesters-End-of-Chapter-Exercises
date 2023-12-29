@@ -107,6 +107,43 @@ public class TimeTableGUI extends Application{
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		list = new TimeTable(noOfDays, noOfPeriods); // initialise the timetable list
+		
+		// make text area non editable 
+		tArea11.setEditable(false);
+		tArea12.setEditable(false);
+		tArea13.setEditable(false);
+		tArea14.setEditable(false);
+		tArea15.setEditable(false);
+		tArea16.setEditable(false);
+		tArea17.setEditable(false);
+		tArea21.setEditable(false);
+		tArea22.setEditable(false);
+		tArea23.setEditable(false);
+		tArea24.setEditable(false);
+		tArea25.setEditable(false);
+		tArea26.setEditable(false);
+		tArea27.setEditable(false);
+		tArea31.setEditable(false);			
+		tArea32.setEditable(false);
+		tArea33.setEditable(false);
+		tArea34.setEditable(false);
+		tArea35.setEditable(false);
+		tArea36.setEditable(false);
+		tArea37.setEditable(false);
+		tArea41.setEditable(false);
+		tArea42.setEditable(false);
+		tArea43.setEditable(false);
+		tArea44.setEditable(false);
+		tArea45.setEditable(false);
+		tArea46.setEditable(false);
+		tArea47.setEditable(false);
+		tArea51.setEditable(false);
+		tArea52.setEditable(false);
+		tArea53.setEditable(false);
+		tArea54.setEditable(false);
+		tArea55.setEditable(false);
+		tArea56.setEditable(false);
+		tArea57.setEditable(false);
 
 		// set label alignment 
 		nameLabel.setAlignment(Pos.CENTER);
@@ -230,6 +267,7 @@ public class TimeTableGUI extends Application{
 		cancelBookButton.getStyleClass().add("button1");
 		
 		primaryStage.setScene(scene);
+		primaryStage.setTitle("TimeTable");
 		primaryStage.show();
 	}
 	public static void main(String[] args) {
