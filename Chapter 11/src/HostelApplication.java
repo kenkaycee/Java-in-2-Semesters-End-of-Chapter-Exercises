@@ -1,8 +1,6 @@
-/**
- * . Adapt the Hostel case study of Chaps. 11 and 12 as follows:
-(a) Make use of a ComboBox to enter the month.
-(b) Enable the number of rooms to be entered via a Dialog, as described in
-Sect. 17.7.
+/**GUI for the Hostel Application
+ * @author Kaycee Ezenta
+ *@version 5th December 2023
  */
 import java.text.NumberFormat;
 import java.util.regex.Pattern;
@@ -28,11 +26,6 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-
-/**GUI for the Hostel Application
- * @author Kaycee Ezenta
- *@version 5th December 2023
- */
 
 public class HostelApplication extends Application{
 	// attributes 
